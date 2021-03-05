@@ -1,0 +1,61 @@
+body {
+  margin: 0 auto;
+}
+
+.divRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.divColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.divEsquerda {
+  width: 60%;
+  height: 100%
+}
+
+.divImage {
+  width: 50%;
+  padding: 10% 0 0 15%;
+}
+
+.divDivider {
+  margin: 3% 9%;
+  border-top: 5px solid green;
+  width: 70%;
+}
+
+#p1 {
+  font-size: 30px;
+  color: green;
+}
+
+.divDireita {
+  background-color: #029456;
+  width: 100%;
+}
+
+#p2 {
+  font-size: 20;
+  color: white;
+}
+
+.input {
+  width: 300px;
+  background-color: #029456;
+  color: white;
+}
+
+.input::placeholder {
+
+  color: white;
+}
+
+.btn {
+  width: 250px;
+}
